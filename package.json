@@ -2,10 +2,12 @@
   "name": "loan-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Prashant-Kamboj.github.io/SampleProject/",
   "dependencies": {
     "@material-ui/core": "^4.5.2",
     "@material-ui/icons": "^4.5.1",
     "axios": "^0.19.0",
+    "gh-pages": "^2.1.1",
     "mdbreact": "^4.22.0",
     "nw-react-slider": "^2.0.1",
     "react": "^16.11.0",
@@ -16,6 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

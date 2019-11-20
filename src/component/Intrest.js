@@ -10,7 +10,7 @@ class Intrest extends Component {
     return (
       <Grid container>
         <Grid item md={6} xs={6}>
-          <h3>Intrest Rate</h3>
+          <h3>Rate of Intrest</h3>
           <h4>{this.props.intrestRate}</h4>
         </Grid>
         <Grid item md={6} xs={6}>
